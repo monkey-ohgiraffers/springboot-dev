@@ -19,6 +19,11 @@ configurations {
     }
 }
 
+// graddle 빌드 시 plain.jar 생성 제외
+jar {
+    enabled = false
+}
+
 repositories {
     mavenCentral()
 }
