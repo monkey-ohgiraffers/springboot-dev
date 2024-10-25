@@ -1,4 +1,4 @@
-FROM eclips-temurin:17
+FROM eclipse-temurin:17
 
 ARG JAR_FILE=build/libs/*.jar
 
