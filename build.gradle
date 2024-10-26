@@ -13,11 +13,6 @@ java {
     }
 }
 
-// graddle 빌드 시 plain.jar 생성 제외
-jar {
-    enabled = false
-}
-
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
